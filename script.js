@@ -64,7 +64,7 @@ homeLink.addEventListener('click', event => {
 document.addEventListener("DOMContentLoaded", function () {
   const linkedinUrl = "https://www.linkedin.com/in/teresia-muthoni";
   const githubUrl = "https://github.com/0teresia";
-  const twitterUrl = "https://twitter.com/your-handle";
+  const twitterUrl = "https://twitter.com/Teresia69526780";
 
   const linkedinLink = document.getElementById("linkedin");
   const githubLink = document.getElementById("github");
