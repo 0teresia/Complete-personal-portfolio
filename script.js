@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
 // Projects section
 const scrollToProjects = () => {
   const projectsSection = document.getElementById("projects");

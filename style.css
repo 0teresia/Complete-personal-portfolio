@@ -444,6 +444,7 @@ span {
     text-decoration: none;
 }
 
+
 /* skills section*/
 .skills {
     min-height: auto;
@@ -858,6 +859,8 @@ span {
         font-size: 5rem;
     }
 }
+
+
 
 /* KEYFRAMES ANIMATION */
 @keyframes homeBgText {
