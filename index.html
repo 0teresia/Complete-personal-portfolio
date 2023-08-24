@@ -24,7 +24,7 @@
     <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#skills">skills</a>
+            <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
 
@@ -45,16 +45,24 @@
                 <span class="animate" style="--i:4;"></span>
             </p>
 
-
-            
             <div class="btn-box">
-                <a href="#" class="btn" id="hireButton">Hire Me</a>
                 <a href="#" class="btn" id="talkButton">Let's Talk</a>
                 <span class="animate" style="--i:5;"></span>
+            </div>
             
-            <form action="https://formspree.io/f/xoqodnzy" method="POST" id="contactForm" style="display: none;">
-                <input type="hidden" name="buttonClicked" id="buttonClicked" value="">
-            </form>
+            <div id="contactFormContainer" style="display: none;">
+                <form action="https://formspree.io/f/xoqodnzy" method="POST" id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br>
+                    
+                    <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
 
@@ -75,13 +83,13 @@
         
         <div class="about-content">
             <h3> Fronted Developer!</h3>
-            <p>I am a frontend developer with a passion for creating engaging and interactive web experiences.<br> I have built three personal Projects, and I enjoy using my creativity and technical skills to bring ideas to life.<br> In my free time, I like to explore new technologies and contribute to open-source projects.<br> Feel free to reach out to me to discuss web development or collaborate on exciting projects. </p>
+            <p>I am a frontend developer with a passion for creating engaging and interactive web experiences.<br> I have built three personal projects, and I enjoy using my creativity and technical skills to bring ideas to life.<br> In my free time, I like to explore new technologies and contribute to open-source projects.<br> Feel free to reach out to me to discuss web development or collaborate on exciting projects. </p>
         </div>
     </section>
 
     <!--project section design-->
     <section class="projects" id="projects">
-        <h2 class="heading"> My <span>Jouney</span></h2>
+        <h2 class="heading"> My <span>Projects</span></h2>
     
         <div class="project-row">
             <div class="project-column">
@@ -91,13 +99,12 @@
             <div class="project-box">
                 <div class="project-content">
                     <div class="content">
-                    <h3>Animated Clock</h3>
+                    <h3>ChronoMotion-clock</h3>
                     <ul class="project-list">
-                    
-                            <li>The animated clock dynamically displays the current time and updates in real-time, providing an immersive experience for users. I meticulously designed the clock's visual elements, including the hour, minute, and second hands, to ensure smooth and accurate motion. Through the implementation of CSS transitions and JavaScript animations, the clock elegantly represents the passage of time.</li>
+                        <li>The ChronoMotion clock dynamically displays the current time and updates in real-time, providing an immersive experience for users. I meticulously designed the clock's visual elements, including the hour, minute, and second hands, to ensure smooth and accurate motion. Through the implementation of CSS transitions and JavaScript animations, the clock elegantly represents the passage of time.</li>
                     </ul>
                     
-                    <a href="/portfolio/projects/ChronoMotion-clock/index.html">View Project</a>
+                    <a href="https://0teresia.github.io/ChronoMotion-clock/">View Project</a>
                     </div>   
                     </div>   
                 </div>
@@ -105,12 +112,12 @@
             <div class="project-box">
                 <div class="project-content">
                 <div class="content">
-                    <h3>Countdown Clock</h3>
+                    <h3>Timer-clock</h3>
                     <ul class="project-list">
-                            <li> The countdown clock offers a captivating visual representation of time remaining for a specific event. Through careful design and meticulous attention to detail, I created an elegant and user-friendly interface that effortlessly counts down to the desired date and time. The integration of CSS animations and JavaScript functionalities ensures smooth transitions and real-time updates, providing users with an interactive and informative tool.</li>   
+                            <li> The Timer clock offers a captivating visual representation of time remaining for a specific event. Through careful design and meticulous attention to detail, I created an elegant and user-friendly interface that effortlessly counts down to the desired time. The integration of CSS animations and JavaScript functionalities ensures smooth transitions and real-time updates, providing users with an interactive and informative tool.</li>   
                     </ul>
                 
-                <a href="/portfolio/projects/Timer-clock/index.html">View Project</a>
+                <a href="https://0teresia.github.io/Timer-clock/">View Project</a>
             </div>
             </div>   
             </div>
@@ -119,12 +126,12 @@
             <div class="project-box">
             <div class="project-content">
                 <div class="content">
-                <h3>Tapas Clock</h3>
+                <h3>FlavorBites-app</h3>
                 <ul class="project-list">
-                        <li>The Tapas app provides a delightful and interactive space for users to discover, share, and explore an array of tantalizing tapas recipes. Leveraging HTML, CSS, and JavaScript, I meticulously designed the app's user interface to prioritize user experience and ease of navigation. Users can effortlessly browse through an extensive collection of recipes, each presented with captivating imagery and detailed instructions.</li>
+                    <li>The FlavorBites app invites you to embark on a local tapas journey, where you have the power to curate your culinary experience. The app's interface is designed to allow you to add various delectable items to your cart, such as rice, beef, and more. This innovative functionality is achieved through the expert integration of JavaScript. As you explore the offerings, the app provides a real-time representation of your chosen items in the form of an engaging list. The intuitive design and seamless navigation ensure that your gastronomic adventure is both enjoyable and tailored to your preference.</li>
                 </ul>
                 
-                <a href="/portfolio/projects/FlavorBites-app/index.html">View Project</a>
+                <a href="https://0teresia.github.io/FlavourBites-app/">View Project</a>
                 </div>
                 </div>   
                 </div>
@@ -159,7 +166,7 @@
                         </div>
 
                         <div class="progress">
-                            <h3>React<span> 10%</span></h3>
+                            <h3>React<span> 20%</span></h3>
                             <div class="bar"><span></span></div> 
                         </div>
 
@@ -169,7 +176,7 @@
                         </div>
 
                         <div class="progress">
-                            <h3>GitHub <span> 50%</span></h3>
+                            <h3>GitHub <span> 75%</span></h3>
                             <div class="bar"><span></span></div> 
                         </div>
 
