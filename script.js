@@ -61,6 +61,25 @@ homeLink.addEventListener('click', event => {
   });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  const hireButton = document.getElementById('hireButton');
+  const talkButton = document.getElementById('talkButton');
+  const contactForm = document.getElementById('contactForm');
+  const buttonClickedField = document.getElementById('buttonClicked');
+
+  hireButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      buttonClickedField.value = 'hire';
+      contactForm.submit();
+  });
+
+  talkButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      buttonClickedField.value = 'talk';
+      contactForm.submit();
+  });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const linkedinUrl = "https://www.linkedin.com/in/teresia-muthoni";
   const githubUrl = "https://github.com/0teresia";
