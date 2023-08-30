@@ -61,17 +61,10 @@ homeLink.addEventListener('click', event => {
   });
 });
 
-const talkButton = document.getElementById('talkButton');
-const contactFormContainer = document.getElementById('contactFormContainer');
-const submitButton = document.getElementById('submitButton');
-
-talkButton.addEventListener('click', function() {
-    contactFormContainer.style.display = 'block';
-});
-
-submitButton.addEventListener('click', function() {
-    contactFormContainer.style.display = 'none';
-});
+function scrollToContact() {
+  var contactSection = document.getElementById("contact");
+  contactSection.scrollIntoView({ behavior: "smooth" });
+}
 
 
 document.addEventListener("DOMContentLoaded", function () {
